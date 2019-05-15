@@ -1,0 +1,9 @@
+{
+  "name": "oumeal",
+  "version": "1.0.0",
+  "description": "food select system for mealer of OsakaUniversity",
+  "main": "index.js",
+  "repository": "https://github.com/Happa8/oumeal.git",
+  "author": "happa8 <happa.eight@gmail.com>",
+  "license": "MIT"
+}
