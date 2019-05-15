@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/Happa8/oumeal.git",
   "author": "happa8 <happa.eight@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
