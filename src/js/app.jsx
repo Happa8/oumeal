@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { render } from 'react-dom';
 import kanshitaData from "../data/menu.json";
 import MenuCard from "./menucard"
@@ -40,10 +40,21 @@ function getRandom(max){
 
 class App extends React.Component{
     constructor(props){
-        super(props)
-        console.log("start")
+        super(props);
+        this.playGacha = this.playGacha.bind(this)
+        this.state = {
+            menuList: [],
+            menuListNum: [],
+            sumPrice: [],
+            sumCalorie: [],
+            sumRed: [],
+            sumGreen: [],
+            sumYellow: []
+        }
+    }
+    playGacha(){
+        console.log("Gacha")
         var list = mealGacha(500)
-        console.log("listcom")
         var menuListPre = []
         var sumPrice = 0
         var sumCalorie = 0
@@ -52,33 +63,45 @@ class App extends React.Component{
         var sumYellow = 0
         for(var i in list){
             menuListPre.push(<MenuCard menuName={kanshitaData[list[i]].menu} menuPrice={kanshitaData[list[i]].price} menuCalorie={kanshitaData[list[i]].calorie}/>)
+            console.log(kanshitaData[list[i]].calorie)
             sumPrice += kanshitaData[list[i]].price
             sumCalorie += kanshitaData[list[i]].calorie
             sumRed += kanshitaData[list[i]].red
             sumGreen += kanshitaData[list[i]].green
             sumYellow += kanshitaData[list[i]].yellow
         }
-        this.state = {
+        this.setState({
             menuList: menuListPre,
             menuListNum: list,
             sumPrice: sumPrice,
-            sumCalorie: sumCalorie,
-            sumRed: sumRed,
-            sumGreen: sumGreen,
-            sumYellow: sumYellow
-        }
-        console.log("complete")
-        console.log(this.state.sumCalorie)
+            sumCalorie: Math.round(sumCalorie*10)/10,
+            sumRed: Math.round(sumRed*10)/10,
+            sumGreen: Math.round(sumGreen*10)/10,
+            sumYellow: Math.round(sumYellow*10)/10
+        })
+
     }
     render(){
         return(
             <Containter>
-                {this.state.menuList}{console.log("rendered")}
+                <Button onClick={this.playGacha}>ガチャを回す</Button>
+                {this.state.menuList}
                 <ResultCard price={this.state.sumPrice} calorie={this.state.sumCalorie} red={this.state.sumRed} green={this.state.sumGreen} yellow={this.state.sumYellow} />
             </Containter>
         )
     }
+    
 }
+
+const Button = styled.a`
+    background-color:#fff;
+    color:#000;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 5px;
+    cursor: pointer;
+`;
+
 
 const Containter = styled.div`
     display: flex;
