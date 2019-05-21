@@ -25752,7 +25752,7 @@ if ("development" === 'production') {
 module.exports = [{
   "menu": "天津麻婆丼",
   "price": 490,
-  "caloire": 1167,
+  "calorie": 1167,
   "protain": 44.4,
   "shishitu": 53.3,
   "tansui": 117.6,
@@ -25765,7 +25765,7 @@ module.exports = [{
 }, {
   "menu": "天津カレー",
   "price": 490,
-  "caloire": 1202.1,
+  "calorie": 1202.1,
   "protain": 32.6,
   "shishitu": 65.3,
   "tansui": 112.6,
@@ -25778,7 +25778,7 @@ module.exports = [{
 }, {
   "menu": "麻婆丼",
   "price": 410,
-  "caloire": 665.3,
+  "calorie": 665.3,
   "protain": 21,
   "shishitu": 11.6,
   "tansui": 114.1,
@@ -25791,7 +25791,7 @@ module.exports = [{
 }, {
   "menu": "天津中華丼",
   "price": 490,
-  "caloire": 1148.6,
+  "calorie": 1148.6,
   "protain": 34.2,
   "shishitu": 60.2,
   "tansui": 109.8,
@@ -25804,7 +25804,7 @@ module.exports = [{
 }, {
   "menu": "中華丼",
   "price": 410,
-  "caloire": 615.3,
+  "calorie": 615.3,
   "protain": 11.7,
   "shishitu": 12.3,
   "tansui": 112.2,
@@ -25817,7 +25817,7 @@ module.exports = [{
 }, {
   "menu": "天津カレーS",
   "price": 330,
-  "caloire": 664.7,
+  "calorie": 664.7,
   "protain": 20.4,
   "shishitu": 35.9,
   "tansui": 60.1,
@@ -25830,7 +25830,7 @@ module.exports = [{
 }, {
   "menu": "ライスL",
   "price": 144,
-  "caloire": 561,
+  "calorie": 561,
   "protain": 9.9,
   "shishitu": 0,
   "tansui": 122.1,
@@ -25843,7 +25843,7 @@ module.exports = [{
 }, {
   "menu": "ライスM",
   "price": 113,
-  "caloire": 408,
+  "calorie": 408,
   "protain": 7.2,
   "shishitu": 0,
   "tansui": 88.8,
@@ -25856,7 +25856,7 @@ module.exports = [{
 }, {
   "menu": "ライスS",
   "price": 92,
-  "caloire": 272,
+  "calorie": 272,
   "protain": 4.8,
   "shishitu": 0,
   "tansui": 59.2,
@@ -25869,7 +25869,7 @@ module.exports = [{
 }, {
   "menu": "ライスSS",
   "price": 72,
-  "caloire": 170,
+  "calorie": 170,
   "protain": 3,
   "shishitu": 0,
   "tansui": 37,
@@ -25882,7 +25882,7 @@ module.exports = [{
 }, {
   "menu": "豚汁",
   "price": 108,
-  "caloire": 100,
+  "calorie": 100,
   "protain": 6,
   "shishitu": 3.8,
   "tansui": 11.2,
@@ -25895,7 +25895,7 @@ module.exports = [{
 }, {
   "menu": "味噌汁",
   "price": 32,
-  "caloire": 41.3,
+  "calorie": 41.3,
   "protain": 2.3,
   "shishitu": 2.1,
   "tansui": 3.8,
@@ -25908,7 +25908,7 @@ module.exports = [{
 }, {
   "menu": "ロースカツカレー",
   "price": 390,
-  "caloire": 866.8,
+  "calorie": 866.8,
   "protain": 20.4,
   "shishitu": 30.5,
   "tansui": 123.7,
@@ -25921,7 +25921,7 @@ module.exports = [{
 }, {
   "menu": "カレーライス",
   "price": 280,
-  "caloire": 560,
+  "calorie": 560,
   "protain": 10.9,
   "shishitu": 7.2,
   "tansui": 108.9,
@@ -25934,7 +25934,7 @@ module.exports = [{
 }, {
   "menu": "ベジタリアンカレー",
   "price": 350,
-  "caloire": 527.4,
+  "calorie": 527.4,
   "protain": 8.3,
   "shishitu": 2.5,
   "tansui": 114.2,
@@ -25947,7 +25947,7 @@ module.exports = [{
 }, {
   "menu": "ローストンカツ丼",
   "price": 420,
-  "caloire": 896.7,
+  "calorie": 896.7,
   "protain": 25.9,
   "shishitu": 34.1,
   "tansui": 114.6,
@@ -25960,7 +25960,7 @@ module.exports = [{
 }, {
   "menu": "親子丼",
   "price": 370,
-  "caloire": 693.1,
+  "calorie": 693.1,
   "protain": 25.2,
   "shishitu": "16..1",
   "tansui": 105.4,
@@ -25973,7 +25973,7 @@ module.exports = [{
 }, {
   "menu": "玉子丼",
   "price": 310,
-  "caloire": 593.2,
+  "calorie": 593.2,
   "protain": 18.3,
   "shishitu": 10.4,
   "tansui": 100.9,
@@ -25986,7 +25986,7 @@ module.exports = [{
 }, {
   "menu": "台湾ラーメン",
   "price": 432,
-  "caloire": 548,
+  "calorie": 548,
   "protain": 25.7,
   "shishitu": 7.3,
   "tansui": 95.8,
@@ -25999,7 +25999,7 @@ module.exports = [{
 }, {
   "menu": "かき揚げうどん",
   "price": 259,
-  "caloire": 456,
+  "calorie": 456,
   "protain": 8.3,
   "shishitu": 9.3,
   "tansui": 84.5,
@@ -26012,7 +26012,7 @@ module.exports = [{
 }, {
   "menu": "かき揚げそば",
   "price": 259,
-  "caloire": 425,
+  "calorie": 425,
   "protain": 11.6,
   "shishitu": 10.1,
   "tansui": 71.9,
@@ -26025,7 +26025,7 @@ module.exports = [{
 }, {
   "menu": "うどん",
   "price": 172,
-  "caloire": 339,
+  "calorie": 339,
   "protain": 7.7,
   "shishitu": 1,
   "tansui": 75,
@@ -26038,7 +26038,7 @@ module.exports = [{
 }, {
   "menu": "そば",
   "price": 172,
-  "caloire": 308,
+  "calorie": 308,
   "protain": 10.9,
   "shishitu": 1.8,
   "tansui": 62.4,
@@ -26051,7 +26051,7 @@ module.exports = [{
 }, {
   "menu": "山菜うどん",
   "price": 259,
-  "caloire": 357,
+  "calorie": 357,
   "protain": 8.9,
   "shishitu": 1,
   "tansui": 78.6,
@@ -26064,7 +26064,7 @@ module.exports = [{
 }, {
   "menu": "山菜そば",
   "price": 259,
-  "caloire": 326,
+  "calorie": 326,
   "protain": 12.1,
   "shishitu": 1.8,
   "tansui": 66,
@@ -26077,7 +26077,7 @@ module.exports = [{
 }, {
   "menu": "きつねうどん",
   "price": 216,
-  "caloire": 419,
+  "calorie": 419,
   "protain": 11.1,
   "shishitu": 5.9,
   "tansui": 80.9,
@@ -26090,7 +26090,7 @@ module.exports = [{
 }, {
   "menu": "きつねそば",
   "price": 216,
-  "caloire": 388,
+  "calorie": 388,
   "protain": 14.4,
   "shishitu": 6.7,
   "tansui": 68.3,
@@ -26103,7 +26103,7 @@ module.exports = [{
 }, {
   "menu": "コーンとツナのサラダ",
   "price": 108,
-  "caloire": 81,
+  "calorie": 81,
   "protain": 5.9,
   "shishitu": 3.5,
   "tansui": 6.8,
@@ -26116,7 +26116,7 @@ module.exports = [{
 }, {
   "menu": "豚スタミナ丼",
   "price": 486,
-  "caloire": 741,
+  "calorie": 741,
   "protain": 28.8,
   "shishitu": 18.5,
   "tansui": 106.2,
@@ -26129,7 +26129,7 @@ module.exports = [{
 }, {
   "menu": "そぼろ親子丼",
   "price": 378,
-  "caloire": 624,
+  "calorie": 624,
   "protain": 18.4,
   "shishitu": 11,
   "tansui": 104.1,
@@ -26142,7 +26142,7 @@ module.exports = [{
 }, {
   "menu": "たっぷりチーズカレー",
   "price": 378,
-  "caloire": 704,
+  "calorie": 704,
   "protain": 20.9,
   "shishitu": 18.4,
   "tansui": 109.7,
@@ -26155,7 +26155,7 @@ module.exports = [{
 }, {
   "menu": "鶏ザンギ",
   "price": 302,
-  "caloire": 369,
+  "calorie": 369,
   "protain": 14.4,
   "shishitu": 22.4,
   "tansui": 24.4,
@@ -26168,7 +26168,7 @@ module.exports = [{
 }, {
   "menu": "牛野菜炒めうま塩ダレ",
   "price": 259,
-  "caloire": 356,
+  "calorie": 356,
   "protain": 10.3,
   "shishitu": 28.3,
   "tansui": 14.8,
@@ -26181,7 +26181,7 @@ module.exports = [{
 }, {
   "menu": "ローストンカツ味噌ソース",
   "price": 259,
-  "caloire": 358,
+  "calorie": 358,
   "protain": 13.2,
   "shishitu": 20.6,
   "tansui": 29.9,
@@ -26194,7 +26194,7 @@ module.exports = [{
 }, {
   "menu": "白身魚和風玉子あん",
   "price": 259,
-  "caloire": 416.2,
+  "calorie": 416.2,
   "protain": 15.1,
   "shishitu": 26.3,
   "tansui": 26.8,
@@ -26207,7 +26207,7 @@ module.exports = [{
 }, {
   "menu": "蒸し鶏ラタトゥイユ",
   "price": 345,
-  "caloire": 478,
+  "calorie": 478,
   "protain": 31.2,
   "shishitu": 32.3,
   "tansui": 10.2,
@@ -26220,7 +26220,7 @@ module.exports = [{
 }, {
   "menu": "あさりと豆腐のうま煮",
   "price": 172,
-  "caloire": 144,
+  "calorie": 144,
   "protain": 18.9,
   "shishitu": 5,
   "tansui": 5.8,
@@ -26233,7 +26233,7 @@ module.exports = [{
 }, {
   "menu": "カジキメンチカツ",
   "price": 172,
-  "caloire": 419,
+  "calorie": 419,
   "protain": 8.9,
   "shishitu": 31.1,
   "tansui": 24.5,
@@ -26246,7 +26246,7 @@ module.exports = [{
 }, {
   "menu": "海老クリームコロッケ",
   "price": 108,
-  "caloire": 243,
+  "calorie": 243,
   "protain": 4.4,
   "shishitu": 18,
   "tansui": 15.1,
@@ -26259,7 +26259,7 @@ module.exports = [{
 }, {
   "menu": "冷奴",
   "price": 43,
-  "caloire": 58,
+  "calorie": 58,
   "protain": 4.8,
   "shishitu": 2.9,
   "tansui": 2.2,
@@ -26272,7 +26272,7 @@ module.exports = [{
 }, {
   "menu": "フルーツヨーグルト",
   "price": 108,
-  "caloire": 100,
+  "calorie": 100,
   "protain": 2.9,
   "shishitu": 1.8,
   "tansui": 18.6,
@@ -26285,7 +26285,7 @@ module.exports = [{
 }, {
   "menu": "ほうれん草胡麻和え",
   "price": 64,
-  "caloire": 37,
+  "calorie": 37,
   "protain": 2.3,
   "shishitu": 1.6,
   "tansui": 4.3,
@@ -26298,7 +26298,7 @@ module.exports = [{
 }, {
   "menu": "大学芋",
   "price": 64,
-  "caloire": 162,
+  "calorie": 162,
   "protain": 0.6,
   "shishitu": 8.4,
   "tansui": 22.2,
@@ -26311,7 +26311,7 @@ module.exports = [{
 }, {
   "menu": "鶏きも煮",
   "price": 86,
-  "caloire": 67,
+  "calorie": 67,
   "protain": 8.9,
   "shishitu": 1.7,
   "tansui": 4.4,
@@ -26324,7 +26324,7 @@ module.exports = [{
 }, {
   "menu": "ベルギーチョコケーキ",
   "price": 216,
-  "caloire": 226,
+  "calorie": 226,
   "protain": 4,
   "shishitu": 14.2,
   "tansui": 21,
@@ -26337,7 +26337,7 @@ module.exports = [{
 }, {
   "menu": "ニューヨークチーズケーキ",
   "price": 216,
-  "caloire": 241,
+  "calorie": 241,
   "protain": 3.9,
   "shishitu": 18.1,
   "tansui": 15,
@@ -26350,7 +26350,7 @@ module.exports = [{
 }, {
   "menu": "ショコラ",
   "price": 108,
-  "caloire": 106,
+  "calorie": 106,
   "protain": 1.8,
   "shishitu": 5.3,
   "tansui": 13.3,
@@ -26363,7 +26363,7 @@ module.exports = [{
 }, {
   "menu": "焼きプリンタルト",
   "price": 64,
-  "caloire": 119,
+  "calorie": 119,
   "protain": 2,
   "shishitu": 6.6,
   "tansui": 12.4,
@@ -26376,7 +26376,7 @@ module.exports = [{
 }, {
   "menu": "エクレア",
   "price": 64,
-  "caloire": 63,
+  "calorie": 63,
   "protain": 0.9,
   "shishitu": 4.8,
   "tansui": 4.1,
@@ -26389,7 +26389,7 @@ module.exports = [{
 }, {
   "menu": "クリームコンフェ",
   "price": 64,
-  "caloire": 61,
+  "calorie": 61,
   "protain": 1.9,
   "shishitu": 2.5,
   "tansui": 12.4,
@@ -26402,7 +26402,7 @@ module.exports = [{
 }, {
   "menu": "プチ今川焼き",
   "price": 64,
-  "caloire": 102,
+  "calorie": 102,
   "protain": 1.6,
   "shishitu": 4.4,
   "tansui": 13.9,
@@ -26415,7 +26415,7 @@ module.exports = [{
 }, {
   "menu": "ヨーグルト風グレープ",
   "price": 86,
-  "caloire": 98,
+  "calorie": 98,
   "protain": 1.2,
   "shishitu": 6,
   "tansui": 11.1,
@@ -26428,7 +26428,7 @@ module.exports = [{
 }, {
   "menu": "みかんクレープ",
   "price": 86,
-  "caloire": 94,
+  "calorie": 94,
   "protain": 1.2,
   "shishitu": 5,
   "tansui": 10.9,
@@ -26441,7 +26441,7 @@ module.exports = [{
 }, {
   "menu": "ショコラモンブラン",
   "price": 216,
-  "caloire": 303,
+  "calorie": 303,
   "protain": 3.3,
   "shishitu": 17.1,
   "tansui": 33.9,
@@ -26454,7 +26454,7 @@ module.exports = [{
 }, {
   "menu": "白桃のタルト",
   "price": 216,
-  "caloire": 224,
+  "calorie": 224,
   "protain": 2.3,
   "shishitu": 10,
   "tansui": 31.2,
@@ -26467,7 +26467,7 @@ module.exports = [{
 }, {
   "menu": "紅茶のシフォン",
   "price": 216,
-  "caloire": 198,
+  "calorie": 198,
   "protain": 3.1,
   "shishitu": 13.8,
   "tansui": 14.5,
@@ -26480,7 +26480,7 @@ module.exports = [{
 }, {
   "menu": "牛乳",
   "price": 67,
-  "caloire": 138,
+  "calorie": 138,
   "protain": 6.8,
   "shishitu": 7.8,
   "tansui": 10,
@@ -30531,24 +30531,24 @@ function (_React$Component) {
         menuList: menuListPre,
         menuListNum: list,
         sumPrice: sumPrice,
-        sumCalorie: sumCalorie,
-        sumRed: sumRed,
-        sumGreen: sumGreen,
-        sumYellow: sumYellow
+        sumCalorie: Math.round(sumCalorie * 10) / 10,
+        sumRed: Math.round(sumRed * 10) / 10,
+        sumGreen: Math.round(sumGreen * 10) / 10,
+        sumYellow: Math.round(sumYellow * 10) / 10
       });
     }
   }, {
     key: "render",
     value: function render() {
-      return _react.default.createElement(Containter, null, this.state.menuList, _react.default.createElement(_resultcard.default, {
+      return _react.default.createElement(Containter, null, _react.default.createElement(Button, {
+        onClick: this.playGacha
+      }, "\u30AC\u30C1\u30E3\u3092\u56DE\u3059"), this.state.menuList, _react.default.createElement(_resultcard.default, {
         price: this.state.sumPrice,
         calorie: this.state.sumCalorie,
         red: this.state.sumRed,
         green: this.state.sumGreen,
         yellow: this.state.sumYellow
-      }), _react.default.createElement(Button, {
-        onClick: this.playGacha
-      }, "\u30AC\u30C1\u30E3\u3092\u56DE\u3059"));
+      }));
     }
   }]);
 
@@ -30588,7 +30588,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54931" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55623" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
