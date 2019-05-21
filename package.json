@@ -7,11 +7,15 @@
   "author": "happa8 <happa.eight@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "csvtojson": "^2.0.8",
     "stylus": "^0.54.5"
   },
   "dependencies": {
+    "csvtojson": "^2.0.8",
+    "global": "^4.3.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
   }
 }
