@@ -7,28 +7,38 @@ import styled from 'styled-components'
 import Notes from "./norts"
 
 
-function mealGacha(mealPrice){
+function mealGacha(mealPrice, isStrict){
     var list = []
     var misslist = []
+    // [TODO] デザート一品限定機能つける
+    // var isDessert = false
+    // var isDrink = false
     var nowPrice = 0
     console.log(kanshitaData.length)
     while((nowPrice < mealPrice) && (misslist.length < kanshitaData.length)){
         var randomSeed =  kanshitaData.length - 1
         var cullentMenu = getRandom(randomSeed)
-        //console.log("M:"+cullentMenu)
+        console.log("M:"+cullentMenu)
         var currentPrice = kanshitaData[cullentMenu].price
         //console.log("price:"+currentPrice)
-        //console.log("P:"+nowPrice)
+        console.log("P:"+nowPrice)
         var sagaku = mealPrice - nowPrice
         if(sagaku >= currentPrice){
+            // 成功処理
             nowPrice = currentPrice + nowPrice
             list.push(cullentMenu)
+            // if(kanshitaData[cullentMenu].isDessert == true){
+            //     isDessert = true
+            // }
+            // if(kanshitaData[cullentMenu].isDrink == true){
+            //     isDrink = true
+            // }
         }else if(misslist.indexOf(cullentMenu) == -1){
             misslist.push(cullentMenu)
         }
         //console.log("L:"+list)
         //console.log("MISS:"+misslist+"   l:"+misslist.length)
-        //console.log("After:"+nowPrice)
+        console.log("After:"+nowPrice)
     }
     //console.log("LAST:"+list)
     return list
@@ -71,7 +81,7 @@ class App extends React.Component{
     }
     playGacha(){
         console.log("Gacha")
-        var list = mealGacha(500)
+        var list = mealGacha(500, true)
         var menuListPre = []
         var sumPrice = 0
         var sumCalorie = 0

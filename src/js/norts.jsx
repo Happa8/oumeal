@@ -16,7 +16,7 @@ class Notes extends React.Component{
                     あと食堂のメニューはコロコロ変わるので出てきたメニューが今あるとは限りません。仕様です。<br/><br/>
                     最後に、現状図書館下食堂のみのメニューとなっております。仕様です。<br/><br/>
                     ご連絡は @happa_eight まで・・・<br/><br/>
-                    Version 1.0.0 Beta
+                    Version 1.0.3 Beta
                 </MainText>
             </Card>
         )

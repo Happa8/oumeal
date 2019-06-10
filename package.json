@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "rm dist/*; parcel build ./src/index.html --public-url .",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "datat": "csvtojson ./src/data/menu.csv > ./src/data/menu.json --checkType=true"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
