@@ -6,7 +6,29 @@ import ResultCard from "./resultcard"
 import styled from 'styled-components'
 import Notes from "./norts"
 
+/// やぎちゃん考案別機構---------------------
+const filterMenu = {
+    // priceを基準にmenuオブジェクトのpriceについて比較する関数を返す
+    maxPrice: (price) => (menu) =>
+        menu.price <= price
+}
 
+// ランダムセレクト
+const selectRandom = (list) =>
+    list[Math.floor(Math.random() * list.length)]
+
+//gachaメイン
+const gacha = (maxPrice, menuList) => {
+    const result = selectRandom(
+        menuList.filter(filterMenu.maxPrice(maxPrice))
+    )
+    if (result == null) return [];
+    return [...gacha(maxPrice - result.price, menuList), result]
+    console.log(result)
+}
+
+/// やぎちゃん式ココマデ----------------------
+/// Happa8式 v1.0.4以降不使用
 function mealGacha(mealPrice, isStrict){
     var list = []
     var misslist = []
@@ -48,6 +70,7 @@ function mealGacha(mealPrice, isStrict){
 function getRandom(max){
     return Math.floor(Math.random()*(max + 1))
 }
+/// Happa8式ココマデ
 
 class App extends React.Component{
     constructor(props){
@@ -81,7 +104,9 @@ class App extends React.Component{
     }
     playGacha(){
         console.log("Gacha")
-        var list = mealGacha(500, true)
+        //var list = mealGacha(500, true)
+        var list = gacha(500, kanshitaData)
+        console.log(list)
         var menuListPre = []
         var sumPrice = 0
         var sumCalorie = 0
@@ -90,14 +115,14 @@ class App extends React.Component{
         var sumYellow = 0
         var menuListName =[]
         for(var i in list){
-            menuListPre.push(<MenuCard menuName={kanshitaData[list[i]].menu} menuPrice={kanshitaData[list[i]].price} menuCalorie={kanshitaData[list[i]].calorie}/>)
-            console.log(kanshitaData[list[i]].calorie)
-            menuListName.push(kanshitaData[list[i]].menu)
-            sumPrice += kanshitaData[list[i]].price
-            sumCalorie += kanshitaData[list[i]].calorie
-            sumRed += kanshitaData[list[i]].red
-            sumGreen += kanshitaData[list[i]].green
-            sumYellow += kanshitaData[list[i]].yellow
+            menuListPre.push(<MenuCard menuName={list[i].menu} menuPrice={list[i].price} menuCalorie={list[i].calorie}/>)
+            console.log(list[i].calorie)
+            menuListName.push(list[i].menu)
+            sumPrice += list[i].price
+            sumCalorie += list[i].calorie
+            sumRed += list[i].red
+            sumGreen += list[i].green
+            sumYellow += list[i].yellow
         }
         var tweetMessage = "ミールプラン500円ガチャを回したよ！<br/>" + menuListName
         this.setState({
